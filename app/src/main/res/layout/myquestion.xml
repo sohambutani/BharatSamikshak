@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/myquestionquery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_top_edittext"
+        android:backgroundTint="#3F9CE6"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/myquestionquerytextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/responced"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_top_edittext"
+        android:backgroundTint="#FFFFFF"
+        android:padding="10dp"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:id="@+id/responcedtextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+</RelativeLayout>
